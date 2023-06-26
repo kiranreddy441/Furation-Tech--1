@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.check-button {
+  padding: 10px 8px;
+  background-color: rgb(26, 147, 171);
+  color: white;
+  border: none;
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+}
+.check-button:hover {
+  color: rgb(26, 147, 171);
+  background-color: white;
+  border: 2px solid rgb(26, 147, 171);
+}
+
+.head {
+  font-size: 16px;
+  color: black;
+  font-weight: 0;
+}
+span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.check-button-success {
+  padding: 10px 8px;
+  background-color: green;
+  color: white;
+  border: none;
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+}
